@@ -4,8 +4,9 @@ class Printing_class_01:
     """
 
     # Constructor method
-    def __init__(self, field_01, field_02):
-
+    def __init__(self, field_01, field_02, **kwargs):
+	# **kwargs enable to pass new argument in further child classes
+	
         # Store value to field field_01 in the object
         self.field_01 = field_01
         self.field_02 = field_02 
